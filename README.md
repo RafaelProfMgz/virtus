@@ -18,9 +18,7 @@ Essas tecnologias garantem uma experiência de desenvolvimento ágil e de alta p
 - [Instalação](#instalação)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Desenvolvimento](#desenvolvimento)
-- [Componentes](#componentes)
 - [Como Contribuir](#como-contribuir)
-- [Docker](#docker)
 - [Licença](#licença)
 
 ## 🛠️ Instalação
@@ -57,7 +55,7 @@ Antes de rodar o projeto, é necessário ter os seguintes programas instalados:
    npm run dev
    ```
 
-   O projeto estará disponível em `http://localhost:3000`.
+   O projeto estará disponível em `http://localhost:5173`.
 
 4. **Rodando o Projeto com Docker (Opcional)**:
    Se preferir rodar o projeto em um contêiner Docker, siga os passos abaixo:
@@ -110,6 +108,7 @@ O projeto utiliza uma arquitetura baseada em **Vue 3** e **TypeScript**, com **V
 Se você deseja contribuir para o projeto **Virtus**, fique à vontade para enviar **pull requests** ou relatar problemas. Siga os passos abaixo:
 
 **Use Fix ou Feat**
+
 1. Fork o repositório.
 2. Crie uma branch para sua Feat ou Fix:  
    `git checkout -b Feat/nova-feature`
@@ -120,20 +119,6 @@ Se você deseja contribuir para o projeto **Virtus**, fique à vontade para envi
    `git push origin Feat/nova-feature`
 6. Abra um pull request.
 
-## 🐳 Docker
-
-O **Docker** é uma opção para rodar o projeto em um contêiner. É útil em ambientes de desenvolvimento e produção. Veja como configurar:
-
-1. **Construir a Imagem**:
-
-   ```bash
-   docker build -t virtus .
-   ```
-
-2. **Rodar o Contêiner**:
-   ```bash
-   docker run -p 3000:3000 virtus
-   ```
 
 ## 📝 Licença
 
